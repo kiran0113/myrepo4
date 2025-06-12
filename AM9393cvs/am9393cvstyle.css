@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+#info {
+	
+	float:left;
+	
+}
+
+#name {
+
+text-align:left;
+
+color:#00F;
+
+	
+}
+
+#name:hover {
+	color:#006;
+}
+
+
+#profile_photo {
+width:200px;
+heigth:200px;
+	
+}
+
+#uthphoto {
+	
+	width:400px;
+	height:200px;
+			
+}
+
+ 
+h2 {
+text-align:left;
+color:#00F;
+}
+
+	
+h2:hover {
+	
+color:#006;
+text-decoration:underline;
+
+}
+
+h3 {
+color:#00F;
+	
+}
+
+h3:hover {
+	
+color:#006;
+text-decoration:underline;
+	
+}
+.personal_info {
+margin-left:250px;
+	
+	
+}
+
+#phone_icon {
+	
+	height:25px;
+	width:25px;
+		
+}
+#email_icon {
+
+	height:25px;
+	width:25px;
+}
