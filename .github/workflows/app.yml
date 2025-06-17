@@ -38,4 +38,4 @@ jobs:
           script: |
             docker pull kiranyn/myrepo4:${{ github.sha }}
             docker stop myrepo4 || true && docker rm myrepo4 || true
-            docker run -d --name myrepo4 -p 8080:80 kiranyn/myrepo4:${{ github.sha }}
+            docker run -d --name myrepo4 -p 8080:8080 kiranyn/myrepo4:${{ github.sha }}
